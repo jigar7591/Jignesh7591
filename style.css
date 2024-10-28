@@ -123,6 +123,80 @@ body {
     background: linear-gradient(90deg, #00b7c2, #0f4c75);
     transition: width 1s;
 }
+/* Contact Section */
+.contact-section {
+    background-color: #1e3c72;
+    color: #e0e0e0;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    color: #34a853;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(30, 60, 114, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1em;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #e0e0e0;
+    font-size: 1em;
+    outline: none;
+    transition: background 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    background: #444;
+}
+
+.submit-btn {
+    background: #34a853;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #2a7d5f;
+}
+
+
 
 /* Testimonials Section */
 .testimonials-section {
@@ -142,10 +216,11 @@ body {
 
 /* Footer */
 .main-footer {
-    text-align: center;
+    background-color: #333;
+    color: #e0e0e0;
     padding: 20px;
-    background-color: #1c1f26;
-    color: #e8f1f2;
+    text-align: center;
+
 }
 
 /* Gradient Animation */
