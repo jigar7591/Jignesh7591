@@ -1,27 +1,79 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
-header {
-    background-color: #333;
-    color: white;
+
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
     text-align: center;
-    padding: 1rem;
+    margin-bottom: 20px;
 }
-h1 {
+
+.resume-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.resume-header p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+.entry {
+    margin-bottom: 15px;
+}
+
+.entry h3 {
+    font-size: 1.1em;
+    color: #0073e6;
     margin: 0;
 }
-section {
-    padding: 2rem;
+
+.entry p, .entry ul {
+    font-size: 0.9em;
+    color: #555;
 }
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+
+.skills-list, .projects-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li, .projects-list li {
+    background-color: #e7f3ff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    color: #0073e6;
+}
+
+.projects-list a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.projects-list a:hover {
+    text-decoration: underline;
 }
