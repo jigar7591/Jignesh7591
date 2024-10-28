@@ -1,20 +1,35 @@
-/* Smooth Scrolling */
-html {
-    scroll-behavior: smooth;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
-/* Sticky Navbar */
+/* Navbar */
 .sticky {
     position: sticky;
     top: 0;
-    z-index: 1000;
     background-color: #333;
+    color: white;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0073e6;
     color: white;
 }
 
 /* Typing Animation */
 .typing-text {
-    display: inline-block;
     border-right: 2px solid #333;
     white-space: nowrap;
     overflow: hidden;
@@ -26,39 +41,25 @@ html {
     to { width: 100%; }
 }
 
-@keyframes blink {
-    50% { border-color: transparent; }
-}
-
-/* Skill Bars */
+/* Skills Bars */
 .skill-bar {
-    width: 100%;
     background-color: #e0e0e0;
     border-radius: 5px;
-    overflow: hidden;
 }
 
 .skill-level {
     height: 10px;
     background-color: #0073e6;
-    animation: fill 2s ease;
 }
 
-@keyframes fill {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-/* Modal Styling */
+/* Modal */
 .modal {
     display: none;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
-    z-index: 1000;
     align-items: center;
     justify-content: center;
 }
@@ -81,13 +82,8 @@ html {
 }
 
 /* Testimonials */
-.testimonials-section {
-    background-color: #f9f9f9;
-    padding: 2rem;
-    text-align: center;
-}
-
 .testimonial {
-    font-style: italic;
     margin: 1rem 0;
+    font-style: italic;
+    text-align: center;
 }
