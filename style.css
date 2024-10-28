@@ -1,10 +1,10 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #e0e0e0;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ffafbd, #ffc3a0, #ff9a9e);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
 }
@@ -13,7 +13,7 @@ body {
 .sticky {
     position: sticky;
     top: 0;
-    background-color: rgba(51, 51, 51, 0.9);
+    background-color: rgba(30, 60, 114, 0.9);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
     z-index: 1000;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: #e0e0e0;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -33,14 +33,14 @@ body {
 }
 
 .navbar a:hover {
-    color: #ff9a9e;
+    color: #34a853;
 }
 
 /* Hero Section */
 .hero-section {
     text-align: center;
     padding: 100px 20px;
-    color: white;
+    color: #e0e0e0;
 }
 
 .hero-section h1 {
@@ -50,11 +50,11 @@ body {
 
 .typing-text {
     font-style: italic;
-    color: #ffd700;
+    color: #34a853;
 }
 
 .hero-section .btn {
-    background: #ff9a9e;
+    background: #2a5298;
     padding: 10px 20px;
     color: white;
     border: none;
@@ -65,14 +65,14 @@ body {
 }
 
 .hero-section .btn:hover {
-    background: #ff77a9;
+    background: #1e3c72;
 }
 
 /* Portfolio Section */
 .portfolio-section {
     padding: 50px 20px;
-    background-color: #fff;
-    color: #333;
+    background-color: #1e3c72;
+    color: #e0e0e0;
     text-align: center;
 }
 
@@ -86,7 +86,7 @@ body {
 .project-card {
     width: 300px;
     padding: 20px;
-    background-color: #ffddd2;
+    background-color: #2a5298;
     border-radius: 10px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
@@ -104,36 +104,32 @@ body {
 /* Skills Section */
 .skills-section {
     padding: 50px 20px;
-    background-color: #ffe0e9;
-}
-
-.skill {
-    margin: 20px 0;
+    background-color: #1a1a1d;
 }
 
 .skill-bar {
-    background: #e0e0e0;
+    background: #333;
     border-radius: 10px;
 }
 
 .skill-level {
     height: 15px;
     border-radius: 10px;
-    background: linear-gradient(90deg, #ff9a9e, #ff6a88);
+    background: linear-gradient(90deg, #34a853, #2a5298);
     transition: width 1s;
 }
 
 /* Testimonials Section */
 .testimonials-section {
     padding: 50px 20px;
-    background-color: #fff;
-    color: #333;
+    background-color: #2a5298;
+    color: #e0e0e0;
 }
 
 .testimonial {
     font-style: italic;
     margin: 1rem 0;
-    background: #ffe6e6;
+    background: #1e3c72;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -144,7 +140,7 @@ body {
     text-align: center;
     padding: 20px;
     background-color: #333;
-    color: white;
+    color: #e0e0e0;
 }
 
 /* Gradient Animation */
