@@ -3,57 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's Portfolio</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="header-content">
-            <h1>Your Name</h1>
-            <p>Data Analyst | Network Engineer | Cloud Enthusiast</p>
-            <a href="resume.html" class="btn">View My Resume</a>
-        </div>
+    <header class="main-header">
+        <img src="assets/logo.png" alt="Your Logo" class="logo">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="resume.html">Resume</a>
+        </nav>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Data Analyst with a strong foundation in computer science, specializing in data manipulation, machine learning, and cloud services. With a passion for analyzing and visualizing data, I aim to uncover insights that drive business decisions.</p>
+    <section class="hero-section">
+        <h1>Hello, I'm Your Name</h1>
+        <p>Data Analyst | Network Engineer | Cloud Enthusiast</p>
+        <a href="resume.html" class="btn">View My Resume</a>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <h3>Weather Prediction Model</h3>
-                <p>Developed a machine learning model to predict weather patterns using Python and Scikit-Learn.</p>
-                <a href="https://github.com/yourusername/project1" class="btn">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Data Analysis with Power BI</h3>
-                <p>Built interactive dashboards and reports to provide insights for business decisions.</p>
-                <a href="https://github.com/yourusername/project2" class="btn">View on GitHub</a>
-            </div>
-            <div class="project">
-                <h3>Cloud-based Serverless Application</h3>
-                <p>Designed a serverless application using AWS Lambda, S3, and API Gateway.</p>
-                <a href="https://github.com/yourusername/project3" class="btn">View on GitHub</a>
-            </div>
+    <section class="portfolio-section">
+        <h2>Featured Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A brief description of Project 1.</p>
+            <a href="https://github.com/yourusername/project1" class="btn">View Project</a>
         </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A brief description of Project 2.</p>
+            <a href="https://github.com/yourusername/project2" class="btn">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you’d like to connect or learn more about my work, feel free to reach out!</p>
-        <p>Email: youremail@example.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Your Name | <a href="https://github.com/yourusername">GitHub</a></p>
+    <footer class="main-footer">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>Connect: <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> | <a href="https://github.com/yourusername">GitHub</a></p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
