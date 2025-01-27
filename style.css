@@ -128,14 +128,14 @@ body {
 /* Certification Section */
 .Certification-section {
     padding: 50px 20px;
-     background: linear-gradient(90deg, #34a853, #2a5298);
+     background:#1a1a1d;
     color: #e0e0e0;
 }
 
 .Certification {
     font-style: italic;
     margin: 1rem 0;
-    background: #1e3c72;
+    background: #38b2ac;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
