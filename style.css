@@ -128,7 +128,7 @@ body {
 /* Certification Section */
 .Certification-section {
     padding: 50px 20px;
-    background-color: #2a5298;
+     background: linear-gradient(90deg, #34a853, #2a5298);
     color: #e0e0e0;
 }
 
